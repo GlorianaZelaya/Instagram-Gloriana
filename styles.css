@@ -1,0 +1,51 @@
+body {
+    background-color: #E6F1F6;
+    margin: 0;
+}
+div{
+    box-sizing: border-box; 
+}
+header{
+    background-color: white;
+    padding: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header h1{
+    margin: 0; 
+}
+div.post{
+    background: white;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+div.post img{
+    width: 100%;
+}
+div.post .post-footer img{
+    width: 3%;
+    padding: 10px;
+}
+div.post h2, div.post p{
+    padding: 10px;
+    margin: 0;
+}
+div.container{
+    width: 600px;
+    margin: auto; 
+}
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 19%;
+    padding: 10px;
+    text-align: right;
+    color: gray;
+}
+div.post .post-footer div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+
